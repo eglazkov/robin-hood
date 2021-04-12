@@ -7,6 +7,7 @@ body {
 .container {
   max-width: 1224px;
   margin: auto;
+  padding: 0 25px;
 }
 header{
   position: fixed;
@@ -477,4 +478,182 @@ footer {
 .copyright-link {
   text-decoration: none;
   color: #00C805;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    /* max-width: 1000px;     */
+  }
+  .menu-links {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+  .menu-links_item {
+    margin-right: 25px;
+  }
+  .capmaign-img > img {
+    width: 550px;
+  }
+  .main-image > img {
+    width: 450px;
+  }
+}
+@media (max-width: 991px) {
+  .auth-links_sign-up, .auth-links_login {
+    margin-left: 0;
+  }
+  .capmaign-img > img {
+    width: 450px;
+  }
+  .main-wrapper {
+    display: block;
+  }
+  .main-image>img{
+    width: 0;
+  }
+  .intro {
+    background-image: none;
+    padding-bottom: 48px;
+  }
+  .main-info {
+    padding-top: 0;
+  }
+  .main-info, .main-info_description {
+    width: 100%;
+    max-width: inherit;
+  }
+  .func-phone {
+    width: 0;
+    margin: 0;
+  }
+  .func-text {
+    margin-left: 50px;    
+  }
+  .func-text_description {
+    max-width: max-content;
+  }
+  .func-options, .func-text {
+    padding-top: 0;
+  }
+  .functionality {
+    padding: 55px 0;
+  }
+  .products {
+    padding: 55px 0
+  }
+  .products-wrapper {
+    background-image: none;
+  }
+  .product-links {
+    margin-bottom: 30px;
+  }
+  .product-link {
+    margin-right: 15px;
+  }
+  .premium::before {
+    left: -7px;
+  }
+  .products-description {
+    width: 100%;
+    margin-bottom: 30px;
+    max-width: max-content;
+  }
+  .learn-more {
+    margin-bottom: 30px;
+  }
+  .subscribe {
+    width: 292px;
+  }
+  .input {
+    padding: 8px 27px
+  }
+  #email {
+    width: 100px;
+  }
+  .button{
+    padding: 0 10px;
+  }
+}
+@media (max-width: 767px) {
+  .header>a {
+    display: none;
+  }
+  .header {
+    padding: 10px 0;
+  }
+  .capmaign-img > img {
+    width: 320px;
+  }
+  .footer-main {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-main_links-column {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .subscribe {
+    margin-top: 10px;
+    width: auto;
+  }
+  .menu-links_item {
+    font-size: 15px;
+  }
+}
+@media (max-width: 575px) {
+  .main {
+    padding-top: 50px;
+  }
+  .capmaign-img > img {
+    display: none;
+  }
+  .campaign-info {
+    padding: 25px;
+  }
+  .product-links {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .premium::before {
+    display: none;
+  }
+  .header {
+    flex-direction: column;
+  }
+  .intro-features {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+  .intro-features_feature {
+    margin-bottom: 15px;
+  }
+  .product-title {
+    text-align: center;
+  }
+  .functionality-wrapper {
+    flex-direction: column;
+  }
+  .func-options {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .func-options_link {
+    font-size: 18px;
+  }
+  .func-options_arrow-up, .func-options_arrow-down {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+  }
+  .func-text {
+    margin: 0;
+  }
+  .footer-main, .footer-main_links-column {
+    flex-direction: column;
+    align-items: center;
+  }
 }
