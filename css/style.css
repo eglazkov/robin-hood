@@ -169,7 +169,7 @@ header{
 }
 .campaign-info_subtitle__link::after {
   content: '';
-  background-image: url('/img/arrow-right.svg');
+  background-image: url('/robin-hood/img/arrow-right.svg');
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -180,7 +180,7 @@ header{
 .intro {
   padding-top: 48px;
   padding-bottom: 106px;
-  background-image: url('/img/figures.png');
+  background-image: url('/robin-hood/img/figures.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
@@ -239,7 +239,7 @@ header{
 .intro-info::before {
   content: '';
   position: absolute;
-  background-image: url('/img/info-blank.svg');
+  background-image: url('/robin-hood/img/info-blank.svg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 25px;
@@ -305,7 +305,7 @@ header{
   padding-bottom: 60px;
 }
 .products-wrapper {
-  background-image: url('/img/phone-products.png');
+  background-image: url('/robin-hood/img/phone-products.png');
   background-repeat: no-repeat;
   background-size: 585px 585px;
   background-position: right;
